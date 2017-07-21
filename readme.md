@@ -1,6 +1,6 @@
 
 ### Elasticsearch 
-> index : testlog
+> index : weblog
 > type : local
 
 1. mapping
