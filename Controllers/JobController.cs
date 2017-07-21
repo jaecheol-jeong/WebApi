@@ -23,7 +23,7 @@ namespace WebApi.Controllers
         public IActionResult Weather(string area = "Seoul,KR")
         {
             string apiUrl = 
-                string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&APPID=fb5764a177e028ca5677d8b3498cd8ba&units=metric", area);
+                string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&APPID=(appid)&units=metric", area);
             
             HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(apiUrl);
             req.ContentType = "application/json";
