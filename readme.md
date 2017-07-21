@@ -35,3 +35,6 @@
 ```
 ---
 ## DotNet Core WebApi Project
+
+# logging    
+(http://asp.net-hacker.rocks/2017/05/05/add-custom-logging-in-aspnetcore.html)
