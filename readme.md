@@ -34,5 +34,4 @@
 }
 ```
 ---
-## TEST Project
-#잘안되네
+## DotNet Core WebApi Project
